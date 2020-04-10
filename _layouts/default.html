@@ -41,7 +41,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+          <a class="navbar-brand" href="{{ site.url }}">{{ site.title }} - {% if site.subtitle %}<small>{{ site.subtitle }}</small>{% endif %}</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -49,10 +49,10 @@
           </ul>
           <form class="navbar-form navbar-right" action="https://google.com/search" method="get" role="search">
             <div class="form-group">
-              <input type="text" name="q" class="form-control" placeholder="search item" value="">
+              <input type="text" name="q" class="form-control" placeholder="Suche im Podcast" value="">
               <input type="hidden" name="q" value="site:{{ site.url | host_from_url }}" />
             </div>
-            <button type="submit" class="btn btn-default">Search</button>
+            <button type="submit" class="btn btn-default">Suche</button>
           </form>
         </div><!--/.nav-collapse -->
       </div>
