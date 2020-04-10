@@ -43,25 +43,11 @@
 
 <hr/>
 
-<h4>RSS-Feeds</h4>
-
-<ol type="i">
-  {% for feed in site['episode_feed_formats'] %}
-    <li><a href="{{ site['url']}}/episodes.{{ feed }}.rss"><i class="fa fa-rss"></i> {{ feed }}-RSS-Feed</a></li>
-  {% endfor %}
-</ol>
-
-<h4>JSON-Feeds</h4>
-
-<ol type="i">
-  {% for jsonfeed in site['json_feed_formats'] %}
-    <li><a href="{{ site['url']}}/feed.{{ jsonfeed }}.json"><i class="fa fa-rss-square"></i> {{ jsonfeed }}-JSON-Feed</a></li>
-  {% endfor %}
-</ol>
 
 
 
-<h4>Directories</h4>
+
+<h4>Abonniere uns bei </h4>
 
 <ol type="i">
   {% if site.itunes_url %}
@@ -81,6 +67,16 @@
   {% endif %}
 </ol>
 
+<ul>
+  {% for feed in site['episode_feed_formats'] %}
+    <li><a href="{{ site['url']}}/episodes.{{ feed }}.rss"><i class="fa fa-rss"></i> {{ feed }}-RSS-Feed</a></li>
+  {% endfor %}
+
+  {% for jsonfeed in site['json_feed_formats'] %}
+    <li><a href="{{ site['url']}}/feed.{{ jsonfeed }}.json"><i class="fa fa-rss-square"></i> {{ jsonfeed }}-JSON-Feed</a></li>
+  {% endfor %}
+</ul>
+
 
 <h4>Credits</h4>
 
@@ -88,7 +84,7 @@
   <li>Music: <a href="http://www.bensound.com/royalty-free-music">Bensound</a></li>
 </ul>
 
-<h4>License</h4>
+<h4>Lizenz</h4>
 
 {% if site.license_url %}
   <a rel="license" href="{{ site.license_url }}">
