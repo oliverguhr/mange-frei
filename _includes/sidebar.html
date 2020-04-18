@@ -1,5 +1,5 @@
 <div class="page-header">
-  <h3>
+<!--  <h3>
     {{ site.title }}
     {% if site.subtitle %}<br/><small>{{ site.subtitle }}</small>{% endif %}
   </h3>
@@ -7,7 +7,7 @@
 
 <p class="text-center">
   <img width="200px" src="{{ site.url }}/img/logo-360x360.png" alt="{{ site.title }} logo">
-</p>
+</p>-->
 
 {% if site.description %}<p>{{ site.description }}</p>{% endif %}
 
@@ -17,7 +17,7 @@
           data-size="medium auto"
           data-style="filled"
           data-json-data="podcastData"
-          data-colors="#FC6E51;green;blue">
+          data-colors="#014e3c;#fdbd1d">
   </script>
 
   <script>
@@ -43,8 +43,15 @@
 
 <hr/>
 
-
-
+<form class="navbar-form" action="https://google.com/search" method="get" role="search"></form>
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="Suche im Podcast..." style="height:2.5em">
+  <span class="input-group-btn">
+    <button class="btn btn-default" type="button" style="height:2.5em">Suche</button>
+  </span>
+</div><!-- /input-group -->
+</form>
+<hr/>
 
 
 <h4>Abonniere uns bei </h4>
