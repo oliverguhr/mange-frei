@@ -1,5 +1,5 @@
 title: Manege frei
-url: http://localhost:4000
+url: https://www.manege-frei.com
 
 ### download_url: is needed, if and only if audio files are hosted in a different location, it is the path of the directory where the audio files are stored
 #download_url: "http://your.fancy.hosting/episodes"
@@ -8,13 +8,13 @@ description: Wir sprechen mit euch über das Leben, die Arbeit und alles dazwisc
 author: Franziska Bielefeldt und Oliver Guhr
 
 ### author_url: This is the URL of a site owned by the author (see https://jsonfeed.org/version/1)
-author_url: "http://your.fancy.hosting/"
+author_url: "https://www.manege-frei.com/"
 
-email: octopod@example.com
-keywords: [octopod, podcast, magic]
-itunes_categories: [Technology]
+email: oliver.guhr@posteo.com
+keywords: [podcast, education,psychology, work, happieness]
+itunes_categories: [Education]
 episodes_per_feed_page: 100
-episode_feed_formats: [mp3, m4a]
+episode_feed_formats: [mp3, m4a, ogg]
 
 player_theme: default # default | "default-dark" | legacy | minimal | republica
 
