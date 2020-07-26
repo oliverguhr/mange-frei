@@ -6,9 +6,6 @@ navigation: 1
 
 # Media Owner and Content
 
-Todo: Franzi eintragen
-
-
 Oliver Guhr
 
 Königsbrücker Straße 41
