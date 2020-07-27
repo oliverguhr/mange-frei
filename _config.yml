@@ -22,10 +22,10 @@ player_theme: default # default | "default-dark" | legacy | minimal | republica
 date_format: ordinal
 
 ### Rsync Deploy config: Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_host: user@host.org
-ssh_port: 22
-document_root: /path/to/your/htdocs/
-rsync_delete: true
+#ssh_host: user@host.org
+#ssh_port: 22
+#document_root: /path/to/your/htdocs/
+#rsync_delete: true
 
 ### Twiter config, optional
 twitter_nick: oliverguhr # Twitter will not be used unless this is set
