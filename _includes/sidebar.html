@@ -1,12 +1,11 @@
 
-<h3>
-    {{ site.title }}
-    {% if site.subtitle %}<br/><small>{{ site.subtitle }}</small>{% endif %}
-  </h3>
-
 <p class="text-center">
   <img class="img-responsive" src="{{ site.url }}/img/fanzi-und-oli.jpg" alt="{{ site.title }} logo">
 </p>
+<h3>
+  {{ site.title }}
+  {% if site.subtitle %}<br/><small>{{ site.subtitle }}</small>{% endif %}
+</h3>
 
 Wir haben es uns zur Herzensangelegenheit gemacht, euch Impulse mit 
 auf den Weg zu geben, die euch dabei helfen können, euer ArbeitsLeben durch andere Augen zu sehen und 
@@ -14,7 +13,7 @@ aktiv mitzugestalten. Arbeit sollte unserer Meinung nach keine lästige Pflicht 
 bereichernder Bestandteil des Lebens, in dem ihr euch selbst verwirklichen könnt. Aus genau diesem Grund möchten wir euch in unsere Manege holen – hier könnt ihr ohne Druck und mit Begeisterung an euren Kompetenzen arbeiten.
 
 {% if site.description %}<p>{{ site.description }}</p>{% endif %}
-
+<br/>
 
   <script class="podlove-subscribe-button"
           src="/subscribe-button/javascripts/app.js"
