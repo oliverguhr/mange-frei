@@ -15,9 +15,9 @@
    id="svg4179"
    version="1.1"
    inkscape:version="0.91 r13725"
-   inkscape:export-filename="C:\Users\Oliver\Source\manege-frei\img}logo-website.png"
-   inkscape:export-xdpi="169"
-   inkscape:export-ydpi="169"
+   inkscape:export-filename="C:\Users\Oliver\Source\manege-frei\img\logo-website-3.png"
+   inkscape:export-xdpi="455.24335"
+   inkscape:export-ydpi="455.24335"
    sodipodi:docname="logo-website-inkscape.svg">
   <defs
      id="defs4181" />
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="645.79332"
-     inkscape:cy="-3.7209641"
+     inkscape:zoom="1.4"
+     inkscape:cx="446.20517"
+     inkscape:cy="229.79467"
      inkscape:document-units="px"
      inkscape:current-layer="layer1-7"
      showgrid="false"
@@ -43,7 +43,19 @@
      inkscape:window-height="1137"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-text-baseline="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="713.57148,568.57141"
+       orientation="0,1"
+       id="guide5256" />
+    <sodipodi:guide
+       position="708.57148,273.57142"
+       orientation="1,0"
+       id="guide5258" />
+  </sodipodi:namedview>
   <metadata
      id="metadata4184">
     <rdf:RDF>
@@ -52,7 +64,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -102,38 +114,17 @@
         </g>
       </g>
       <text
-         id="text4152"
-         y="216.51424"
-         x="193.68204"
-         style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fdbd1d;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           id="tspan4154"
-           y="77.771591"
-           x="630.16644"><tspan
-             id="tspan4156"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50px;line-height:1.25;font-family:Cambria;-inkscape-font-specification:'Cambria Bold';fill:#fdbd1d;fill-opacity:1"
-             y="216.51424"
-             x="193.68204">G</tspan><tspan
-             id="tspan4158"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:1.25;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#fdbd1d;fill-opacity:1"
-             y="216.51424"
-             x="226.00626">estalte dein </tspan><tspan
-             id="tspan4160"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50px;line-height:1.25;font-family:Cambria;-inkscape-font-specification:'Cambria Bold';fill:#fdbd1d;fill-opacity:1"
-             y="216.51424"
-             x="457.94955">A</tspan><tspan
-             id="tspan4162"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:1.25;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#fdbd1d;fill-opacity:1"
-             y="216.51424"
-             x="490.56674">rbeits</tspan><tspan
-             id="tspan4164"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50px;line-height:1.25;font-family:Cambria;-inkscape-font-specification:'Cambria Bold';fill:#fdbd1d;fill-opacity:1"
-             y="216.51424"
-             x="602.62738">L</tspan><tspan
-             id="tspan4166"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;line-height:1.25;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#fdbd1d;fill-opacity:1"
-             y="216.51424"
-             x="630.16644">eben</tspan></tspan></text>
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.00000381px;line-height:125%;font-family:'Poor Richard';-inkscape-font-specification:'Poor Richard, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#fdbd1d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="199.26823"
+         y="216.47197"
+         id="text5248"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5250"
+           x="199.26823"
+           y="216.47197"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.00000381px;line-height:125%;font-family:'Poor Richard';-inkscape-font-specification:'Poor Richard, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#fdbd1d;fill-opacity:1">Gestalte dein Arbeits Leben</tspan></text>
     </g>
   </g>
 </svg>
