@@ -60,7 +60,9 @@ bereichernder Bestandteil des Lebens, in dem ihr euch selbst verwirklichen könn
 
 <h4>Abonniere uns bei </h4>
 
-<ol type="i">
+<ul>
+    <li><a href="https://open.spotify.com/show/6jpt0E7v29r39ZC7fXbf14">Spotify</a></li>    
+
   {% if site.itunes_url %}
     <li>in Apple-<a href="{{ site.itunes_url }}"><i class="fab fa-apple"></i> Itunes</a></li>
   {% endif %}
@@ -76,7 +78,7 @@ bereichernder Bestandteil des Lebens, in dem ihr euch selbst verwirklichen könn
   {% if site.gpodder_url %}
     <li>at <a href="{{ site.gpodder_url }}"><img src="https://gpodder.net/media/gpoddernet_64.png" height="16" /> Gpodder.net</a></li>
   {% endif %}
-</ol>
+</ul>
 
 <ul>
   {% for feed in site['episode_feed_formats'] %}
@@ -91,8 +93,7 @@ bereichernder Bestandteil des Lebens, in dem ihr euch selbst verwirklichen könn
 
 <h4>Credits</h4>
 
-<ul>
-  <li>Musik <a href="http://www.bensound.com/royalty-free-music">Bensound</a></li>
+<ul>  
   <li>Powered by <a href="https://jekyll-octopod.github.io/">jekyll-octopod</a>
 </li>
 </ul>
